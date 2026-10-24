@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Directory</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">User<span>Hub</span></a>
+        <p>Explore our user directory</p>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <section class="page-heading">
+        <p class="eyebrow">USER DIRECTORY</p>
+        <h1>Meet Our Users</h1>
+        <p class="subtitle">Browse users and explore their information.</p>
+      </section>
+
+      <div class="search-wrapper">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search by name or user ID..."
+          aria-label="Search users by name or ID"
+        />
+      </div>
+
+      <p id="userCount" class="user-count"></p>
+
+      <div id="userContainer" class="user-grid">
+        <p class="status-message">Loading users...</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Built with JavaScript & Fake Store API</p>
+    </footer>
+  </body>
+</html>
